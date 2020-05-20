@@ -6,11 +6,11 @@ void FuckMaple()
 	Log(__FUNCTION__);
 
 	{	//NGS Removal
-		PatchRetZero(0x01960B00);
+		PatchRetZero(0x01E5B860);
 	}
 
 	{	//MSCRC Bypass
-		PatchJmp(0x019DD7AD, 0x019DD844);
+		PatchJmp(0x1EDBAB9, 0x1EDBB50);
 	}
 
 	{	//Logo Skipper
